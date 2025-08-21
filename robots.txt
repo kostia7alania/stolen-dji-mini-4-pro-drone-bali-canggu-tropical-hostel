@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kostia7alania.github.io/stolen-dji-mini-4-pro-drone-bali-canggu-tropical-hostel/sitemap.xml
