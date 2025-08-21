@@ -1,0 +1,66 @@
+name: SEO Keeper
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "README.md"
+      - "README.*.md"
+      - ".github/workflows/seo-keeper.yml"
+      - "scripts/ensure_seo_block.sh"
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - "README.md"
+      - "README.*.md"
+      - ".github/workflows/seo-keeper.yml"
+      - "scripts/ensure_seo_block.sh"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  keep-seo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up git user
+        run: |
+          git config user.name "seo-keeper-bot"
+          git config user.email "seo-keeper-bot@users.noreply.github.com"
+
+      - name: Make script executable
+        run: chmod +x scripts/ensure_seo_block.sh
+
+      - name: Run SEO keeper (README.md + locales)
+        env:
+          DRONE_SN: "1581F6Z9C239E0037UP4"
+          REMOTE_SN: "6UZBL9D02101H8"
+          BAT1_SN: "5LRXL8SDG10BBQ"
+          BAT2_SN: "5LRPL9ACA30750"
+          BAT3_SN: "5LRPL9ACA3078T"
+          HUB_SN: "52WKL9E013061G"
+        run: |
+          ./scripts/ensure_seo_block.sh README.md
+          ./scripts/ensure_seo_block.sh README.en.md
+          ./scripts/ensure_seo_block.sh README.ru.md
+          ./scripts/ensure_seo_block.sh README.id.md
+
+      - name: Commit changes (if any)
+        run: |
+          if ! git diff --quiet; then
+            git add README.md README.en.md README.ru.md README.id.md
+            git commit -m "chore(seo): ensure serial numbers & keywords blocks are present/updated"
+            # Try to push; if PR from fork, this may fail silently (ok).
+            git push || echo "Push failed (likely a fork PR); please pull changes locally and re-push."
+          fi
+
+      - name: PR comment on fork (optional)
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          if ! git diff --quiet; then
+            echo "Updates were committed by the bot."
+          fi
