@@ -1,5 +1,9 @@
 # 🚨 Stolen DJI Mini 4 Pro Combo Drone in Bali — Canggu Tropical Hostel (Бали, Чангу, кража дрона)
 
+![Status](https://img.shields.io/badge/status-stolen-red)
+![Location](https://img.shields.io/badge/location-Bali%20Canggu-blue)
+![Model](https://img.shields.io/badge/DJI-Mini%204%20Pro-black)
+
 **Serial Numbers (SN) — for Google indexing / для индексации / untuk indeks Google:**
 
 - **Drone SN:** 1581F6Z9C239E0037UP4
