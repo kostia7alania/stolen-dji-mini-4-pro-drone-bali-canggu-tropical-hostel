@@ -1,18 +1,50 @@
-# stolen-dji-mini-4-pro-combo-in-bali-canggu-tropical-hostel
-The Stolen Drone in Bali - DJI Mini 4 Pro
+# Украден дрон DJI Mini 4 Pro Combo — Бали, Чангу (Canggu Tropical Hostel)
+
+**Статус:** кража **4 августа 2025** в **Canggu Tropical Hostel** (улица Batu Bolong, Чангу, Бали).  
+Публикую для индексации в Google — чтобы по серийникам и запросам о краже дрона находили эту страницу.
+
+## Серийные номера (SN)
+- оставлю тут серийники (для тех, кто будет гуглить их):
+- **Дрон:** 1581F6Z9C239E0037UP4
+- **Пульт (Remote Controller):** 6UZBL9D02101H8
+- **Батарея 1:** 5LRXL8SDG10BBQ
+- **Батарея 2:** 5LRPL9ACA30750
+- **Батарея 3:** 5LRPL9ACA3078T
+- **Хаб зарядки (Battery Charging Hub):** 52WKL9E013061G
+
+## Что произошло
+- Сначала **украли дрон** DJI Mini 4 Pro Combo.  
+- Позже **выкинули мои вещи** — остался без одежды (только футболка и шорты).  
+- Подано **заявление в полицию Бали**; есть переписки и документы (WhatsApp).
+
+## Где
+- **Место:** Canggu Tropical Hostel, Canggu, Bali, Indonesia  
+- **Район:** Batu Bolong / Canggu  
+- **Дата:** 4 августа 2025
+
+## Фото / Доказательства
+- https://ibb.co.com/nNBQNwRp  
+- https://ibb.co.com/k227QVn7  
+- https://ibb.co.com/ynT0Xj2G  
+- https://ibb.co.com/931z9yJs  
+- https://ibb.co.com/cSqJy8KF  
+- https://ibb.co.com/m5q7yD5R
+
+## Зачем этот репозиторий
+- Чтобы **серийники индексировались** в поиске.  
+- Предупредить покупателей и площадки (OLX, Tokopedia, FB Marketplace).  
+- Помочь туристам и экспатам проверять подозрительные объявления.
+
+## Ключевые слова (SEO)
+украли дрон бали чангу хостел, dji mini 4 pro серийный номер 1581F6Z9C239E0037UP4, пульт 6UZBL9D02101H8, батареи 5LRXL8SDG10BBQ 5LRPL9ACA30750 5LRPL9ACA3078T, хаб 52WKL9E013061G, полиция бали, кража в хостеле
+
 
 _____
 У меня снова украли мой дрон DJI MINI 4 Pro Combo на Бали.
 И снова я беззащитный в поиске устройства.
 Там нету никаких средств поиска дрона, как у айфона (даже выключенный видно)
 
-В общем, оставлю тут серийники (для тех, кто будет гуглить их):
-Drone SN 1581F6Z9C239E0037UP4
-Remote Controller SN 6UZBL9D02101H8
-Battery 1 SN 5LRXL8SDG10BBQ
-Battery 2 SN 5LRPL9ACA30750
-Battery 3 SN 5LRPL9ACA3078T
-Battery charging hub SN 52WKL9E013061G
+
 
 Напомню: первый раз украли в апреле 2025 на Суматре .
 Тогда он лежал в скутере .
@@ -21,4 +53,6 @@ Battery charging hub SN 52WKL9E013061G
 Тут писал подробно:
 - https://vk.com/@kostia7alania-krazha-drona-i-veschei-na-bali-avgust-2025
 - https://vk.com/wall-125614288_2175
+
+
 
